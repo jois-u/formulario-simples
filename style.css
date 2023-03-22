@@ -1,0 +1,77 @@
+body {
+    background: rgb(27,34,71);
+    background: linear-gradient(32deg, rgba(27,34,71,1) 5%, rgba(26,37,107,1) 30%, rgba(88,38,149,1) 60%, rgba(190,27,189,1) 100%) no-repeat;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2 {
+    margin-bottom: 40px;
+
+}
+
+.container{
+    background-color: white;
+    max-width: 500px;
+    padding: 35px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.439), 0 6px 20px 0 rgba(23, 9, 85, 0.719);
+    margin-top: 17%;
+}
+  
+.container .user-box {
+    position: relative;
+   
+}
+  
+.container .user-box input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1px solid #9603ac;
+    outline: none;
+    transition: width 2s;
+    
+  }
+
+.container .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 0 5px 0 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .7s;
+   
+  }
+  
+.container .user-box input:focus ~ label,
+.container .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #9603ac;
+    font-size: 14px;
+  }
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(32deg, rgb(145, 67, 169) 5%, rgb(100, 109, 168) 30%, rgb(126, 71, 192) 60%, rgba(190,27,189,1) 100%);
+    border: none; 
+}
+
+button:hover{
+    background: linear-gradient(32deg, rgb(190, 27, 189, 1) 5%, rgb(126, 71, 192) 30%, rgb(100, 109, 168) 60%, rgba(145,67,169) 100%);
+
+  }
+  
+ 
